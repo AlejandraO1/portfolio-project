@@ -16,6 +16,20 @@ h3 {
   font-family: var(--header-font);
 }
 
+@media (max-width: 600px) {
+  .homepage-hero {
+    padding: 75px 15px;
+  }
+
+  .homepage-hero h1 {
+    font-size: 50px;
+  }
+
+  .homepage-hero h2 {
+    font-size: 25px;
+  }
+}
+
 /* Navigation Bar Section */
 .navbar {
   background-color: var(--primary-color);
@@ -77,6 +91,7 @@ img {
   padding: 25px;
   background-color: var(--secondary-color);
   border-radius: 12px;
+  margin: 10px;
 }
 
 .project-button {
