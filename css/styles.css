@@ -94,6 +94,10 @@ img {
   margin: 10px;
 }
 
+.homepage-app p {
+  margin-top: 10px;
+}
+
 .project-button {
   text-align: center;
 }
