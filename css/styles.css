@@ -50,6 +50,10 @@ img {
 }
 
 .recent-projects h2 {
+  margin: 25px;
+}
+
+.recent-projects h2 span {
   background-color: var(--accent-color);
 }
 
@@ -66,4 +70,13 @@ img {
 
 .btn {
   background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  transition: all 200ms ease-in-out;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
 }
