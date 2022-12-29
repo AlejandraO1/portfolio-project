@@ -1,7 +1,7 @@
 :root {
   --primary-color: #c6e6ff;
   --secondary-color: #fedada;
-  --accent-color: #dee2ff;
+  --accent-color: #d8c0fc;
   --header-font: "Oswald", sans-serif;
   --content-font: "Poppins", sans-serif;
 }
@@ -16,10 +16,24 @@ h3 {
   font-family: var(--header-font);
 }
 
+/* Navigation Bar Section */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
 /* Hero Section */
 
-h1 {
+.homepage-hero h1 {
   font-size: 75px;
+  line-height: normal;
+}
+
+.homepage-hero h1 span {
   background-color: var(--accent-color);
 }
 
@@ -46,11 +60,12 @@ img {
 
 .recent-projects {
   text-align: center;
-  padding: 25px 15px;
+  padding: 20px 15px;
 }
 
 .recent-projects h2 {
-  margin: 25px;
+  margin: 20px;
+  font-size: 45px;
 }
 
 .recent-projects h2 span {
