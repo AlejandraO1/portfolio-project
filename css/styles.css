@@ -13,7 +13,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--header-font);
 }
 
@@ -161,3 +162,22 @@ img {
 }
 
 /* Contact Page */
+.contact-section {
+  text-align: center;
+  background-color: #ffff;
+  padding: 25px 15px;
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: all 200ms ease-in-out;
+}
+
+.contact-section a:hover {
+  color: #000;
+}
+
+.contact-section h4 {
+  margin: 10px;
+}
