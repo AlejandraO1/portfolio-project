@@ -117,16 +117,16 @@ img {
 }
 
 /* About Page */
-.about-section {
+.content-section {
   text-align: center;
   padding: 50px 25px;
 }
 
-.about-section h1 {
+.content-section h1 {
   font-size: 50px;
 }
 
-.about-section p {
+.content-section p {
   font-size: 18px;
 }
 
@@ -152,5 +152,12 @@ img {
 }
 
 /* Projects Page */
+.projects-content {
+  text-align: center;
+  padding: 25px;
+  background-color: var(--accent-color);
+  border-radius: 12px;
+  margin: 10px;
+}
 
 /* Contact Page */
