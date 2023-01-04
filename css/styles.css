@@ -32,14 +32,61 @@ h4 {
   }
 }
 
-/* Navigation Bar Section */
-.navbar {
-  background-color: transparent;
+@media (max-width: 800px) {
+  nav a h2 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
 }
 
-.navbar-brand h2 {
+@media (max-width: 550px) {
+  nav a h2 {
+    font-size: 14px;
+    line-height: 45px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+}
+
+/* Navigation Bar Section */
+nav {
+  background-color: transparent;
+  padding: 20px 0;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+  line-height: 45px;
+}
+
+nav h2 {
   font-weight: 400;
   font-size: 35px;
+  text-align: center;
+}
+
+nav li.active a,
+nav a:hover {
+  background-color: var(--secondary-color);
 }
 
 /* Hero Section */
