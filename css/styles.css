@@ -144,6 +144,18 @@ img {
   margin: 10px;
 }
 
+.homepage-app h3 span {
+  background-color: var(--accent-color);
+}
+
+.homepage-app img {
+  transition: all 200ms ease-in-out;
+}
+
+.homepage-app img:hover {
+  transform: scale(1.1);
+}
+
 .homepage-app p {
   margin-top: 10px;
   opacity: 0.8;
@@ -168,6 +180,9 @@ img {
 }
 
 /* Footer Section */
+footer {
+  margin-bottom: 15px;
+}
 
 .social-links {
   text-align: center;
@@ -273,6 +288,14 @@ img {
   background-color: var(--secondary-color);
   border-radius: 12px;
   margin: 10px;
+}
+
+.projects-content img {
+  transition: all 200ms ease-in-out;
+}
+
+.projects-content img:hover {
+  transform: scale(1.1);
 }
 
 .projects-content p {
