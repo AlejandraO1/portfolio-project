@@ -146,6 +146,7 @@ img {
 
 .homepage-app p {
   margin-top: 10px;
+  opacity: 0.8;
 }
 
 .project-button {
@@ -214,15 +215,20 @@ img {
 
 .content-section h1 {
   font-size: 50px;
+}
+
+.content-section .about-heading {
   padding-bottom: 25px;
 }
 
 .content-section p {
   font-size: 14px;
+  opacity: 0.8;
+  text-align: justify;
 }
 
 .content-section p:first-child {
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .skills-section {
@@ -263,6 +269,10 @@ img {
   background-color: var(--secondary-color);
   border-radius: 12px;
   margin: 10px;
+}
+
+.projects-content p {
+  opacity: 0.8;
 }
 
 .projects-content h3 span {
