@@ -183,12 +183,14 @@ img {
 
 .footnote p a {
   color: #000;
+  background-color: var(--secondary-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
 .footnote p a:hover {
-  color: var(--accent-color);
+  color: #ffff;
+  background-color: var(--accent-color);
 }
 
 /* About Page */
@@ -263,12 +265,14 @@ img {
 
 .contact-section a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: #000;
+  background-color: var(--secondary-color);
   transition: all 200ms ease-in-out;
 }
 
 .contact-section a:hover {
-  color: #000;
+  color: #ffff;
+  background-color: var(--accent-color);
 }
 
 .contact-section h4 {
