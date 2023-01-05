@@ -164,6 +164,44 @@ img {
   border: 2px solid var(--accent-color);
 }
 
+/* Footer Section */
+
+.social-links {
+  text-align: center;
+  padding: 15px;
+}
+
+.social-links a {
+  color: #000;
+  background-color: var(--secondary-color);
+  margin: 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: #ffff;
+  background-color: var(--accent-color);
+}
+
+.footnote p {
+  text-align: center;
+  margin: 0px;
+}
+
+.footnote p a {
+  color: #000;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.footnote p a:hover {
+  color: var(--accent-color);
+}
+
 /* About Page */
 .content-section {
   text-align: center;
