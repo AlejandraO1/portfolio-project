@@ -32,6 +32,17 @@ h4 {
   }
 }
 
+@media (max-width: 390px) {
+  nav a h2 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  nav li a {
+    font-size: 14px;
+  }
+}
+
 /* Navigation Bar Section */
 nav {
   background-color: transparent;
