@@ -9,7 +9,7 @@
 body {
   font-family: var(--content-font);
   background-color: var(--primary-color);
-  animation: transitionIn 0.75s;
+  animation: transitionIn 700ms ease-in-out;
 }
 
 h1,
