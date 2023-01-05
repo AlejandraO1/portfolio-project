@@ -55,7 +55,7 @@ nav a:hover {
   background-color: var(--secondary-color);
 }
 
-/* Hero Section */
+/* Hero Section  ----add homepage hero to all*/
 
 .homepage-hero h1 {
   font-size: 75px;
@@ -68,7 +68,7 @@ nav a:hover {
 
 .homepage-hero {
   text-align: center;
-  padding: 100px 25px;
+  padding: 50px 25px;
 }
 
 .homepage-hero h2 {
@@ -160,7 +160,7 @@ img {
 }
 
 .content-section p {
-  font-size: 14px;
+  font-size: 18px;
   opacity: var(--primary-opacity);
   text-align: justify;
 }
@@ -310,6 +310,12 @@ footer {
 }
 
 /*Responsiveness */
+@media (max-width: 991px) {
+  .content-section p {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 600px) {
   .homepage-hero {
     padding: 25px 15px;
