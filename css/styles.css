@@ -4,6 +4,8 @@
   --accent-color: #d8c0fc;
   --header-font: "Oswald", sans-serif;
   --content-font: "Poppins", sans-serif;
+  --primary-opacity: 0.8;
+  --primary-transition: all 200ms ease-in-out;
 }
 
 body {
@@ -14,45 +16,8 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: var(--header-font);
-}
-
-@keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
-}
-
-@media (max-width: 600px) {
-  .homepage-hero {
-    padding: 25px 15px;
-  }
-
-  .homepage-hero h1 {
-    font-size: 50px;
-  }
-
-  .homepage-hero h2 {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 390px) {
-  nav a h2 {
-    font-size: 25px;
-    line-height: 45px;
-  }
-
-  nav li a {
-    font-size: 14px;
-  }
 }
 
 /* Navigation Bar Section */
@@ -64,7 +29,7 @@ nav {
 nav a {
   color: #000;
   text-decoration: none;
-  transition: all 200ms ease-in-out;
+  transition: var(--primary-transition);
 }
 
 nav ul {
@@ -149,7 +114,7 @@ img {
 }
 
 .homepage-app img {
-  transition: all 200ms ease-in-out;
+  transition: var(--primary-transition);
 }
 
 .homepage-app img:hover {
@@ -158,7 +123,7 @@ img {
 
 .homepage-app p {
   margin-top: 10px;
-  opacity: 0.8;
+  opacity: var(--primary-opacity);
 }
 
 .project-button {
@@ -168,7 +133,7 @@ img {
 .btn {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-  transition: all 200ms ease-in-out;
+  transition: var(--primary-transition);
   font-size: 18px;
   margin: 15px;
 }
@@ -179,50 +144,7 @@ img {
   color: #ffff;
 }
 
-/* Footer Section */
-footer {
-  margin-bottom: 15px;
-}
-
-.social-links {
-  text-align: center;
-  padding: 25px;
-}
-
-.social-links a {
-  color: #000;
-  background-color: var(--secondary-color);
-  margin: 0 20px;
-  padding: 10px 14px;
-  font-size: 18px;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: all 150ms ease-in-out;
-}
-
-.social-links a:hover {
-  color: #ffff;
-  background-color: var(--accent-color);
-}
-
-.footnote p {
-  text-align: center;
-  margin: 0px;
-}
-
-.footnote p a {
-  color: #000;
-  background-color: var(--secondary-color);
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-}
-
-.footnote p a:hover {
-  color: #ffff;
-  background-color: var(--accent-color);
-}
-
-/* About Page */
+/* For additional pages */
 .content-section {
   text-align: center;
   padding: 50px 25px;
@@ -232,13 +154,14 @@ footer {
   font-size: 50px;
 }
 
+/* About Page */
 .content-section .about-heading {
   padding-bottom: 25px;
 }
 
 .content-section p {
   font-size: 14px;
-  opacity: 0.8;
+  opacity: var(--primary-opacity);
   text-align: justify;
 }
 
@@ -291,7 +214,7 @@ footer {
 }
 
 .projects-content img {
-  transition: all 200ms ease-in-out;
+  transition: var(--primary-transition);
 }
 
 .projects-content img:hover {
@@ -299,7 +222,7 @@ footer {
 }
 
 .projects-content p {
-  opacity: 0.8;
+  opacity: var(--primary-opacity);
 }
 
 .projects-content h3 span {
@@ -319,7 +242,7 @@ footer {
   text-decoration: none;
   color: #000;
   background-color: var(--secondary-color);
-  transition: all 200ms ease-in-out;
+  transition: var(--primary-transition);
 }
 
 .contact-section a:hover {
@@ -329,4 +252,85 @@ footer {
 
 .contact-section h3 {
   margin: 20px;
+}
+
+/* Footer Section */
+footer {
+  margin-bottom: 15px;
+}
+
+.social-links {
+  text-align: center;
+  padding: 25px;
+}
+
+.social-links a {
+  color: #000;
+  background-color: var(--secondary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: var(--primary-transition);
+}
+
+.social-links a:hover {
+  color: #ffff;
+  background-color: var(--accent-color);
+}
+
+.footnote p {
+  text-align: center;
+  margin: 0px;
+}
+
+.footnote p a {
+  color: #000;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--primary-transition);
+}
+
+.footnote p a:hover {
+  color: #ffff;
+  background-color: var(--accent-color);
+}
+
+/*Page transitions */
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/*Responsiveness */
+@media (max-width: 600px) {
+  .homepage-hero {
+    padding: 25px 15px;
+  }
+
+  .homepage-hero h1 {
+    font-size: 50px;
+  }
+
+  .homepage-hero h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 390px) {
+  nav a h2 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  nav li a {
+    font-size: 14px;
+  }
 }
