@@ -9,6 +9,7 @@
 body {
   font-family: var(--content-font);
   background-color: var(--primary-color);
+  animation: transitionIn 0.75s;
 }
 
 h1,
@@ -16,6 +17,17 @@ h2,
 h3,
 h4 {
   font-family: var(--header-font);
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
 
 @media (max-width: 600px) {
