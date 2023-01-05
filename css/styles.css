@@ -227,6 +227,10 @@ img {
   text-align: justify;
 }
 
+.content-section p span {
+  background-color: var(--accent-color);
+}
+
 .content-section p:first-child {
   padding-top: 10px;
 }
