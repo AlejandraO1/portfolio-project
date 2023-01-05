@@ -171,13 +171,13 @@ img {
 
 .social-links {
   text-align: center;
-  padding: 15px;
+  padding: 25px;
 }
 
 .social-links a {
   color: #000;
   background-color: var(--secondary-color);
-  margin: 20px;
+  margin: 0 20px;
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
