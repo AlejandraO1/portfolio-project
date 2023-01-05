@@ -288,7 +288,8 @@ img {
 .contact-section {
   text-align: center;
   background-color: #ffff;
-  padding: 25px 15px;
+  padding: 35px 15px;
+  margin-bottom: 10px;
 }
 
 .contact-section a {
@@ -303,6 +304,6 @@ img {
   background-color: var(--accent-color);
 }
 
-.contact-section h4 {
-  margin: 10px;
+.contact-section h3 {
+  margin: 20px;
 }
