@@ -4,7 +4,7 @@
   --tertiary-color: #ecf2f9;
   --header-font: "Oswald", sans-serif;
   --content-font: "Poppins", sans-serif;
-  --primary-opacity: 0.8;
+  --primary-opacity: 0.7;
   --primary-transition: all 200ms ease-in-out;
 }
 
@@ -67,7 +67,6 @@ nav a:hover {
 
 .homepage-hero h1 {
   font-size: 75px;
-  line-height: normal;
 }
 
 .homepage-hero {
@@ -302,7 +301,7 @@ footer {
   }
 
   .homepage-hero h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .homepage-hero h2 {
@@ -310,23 +309,19 @@ footer {
   }
 
   .recent-projects h2 {
+    font-size: 25px;
+  }
+
+  .projects-content h3 {
     font-size: 20px;
   }
 
-  .recent-projects h3 {
-    font-size: 16px;
-  }
-
-  .projects-section h3 {
-    font-size: 16px;
-  }
-
-  .projects-section p {
+  .projects-content p {
     font-size: 14px;
   }
 
   .btn {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .content-section {
