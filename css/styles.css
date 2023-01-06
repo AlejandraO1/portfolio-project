@@ -18,6 +18,12 @@ h2,
 h3 {
   font-family: var(--header-font);
 }
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+}
+
 .animation {
   animation: transitionIn 700ms ease-in-out;
 }
@@ -63,10 +69,6 @@ nav a:hover {
   line-height: normal;
 }
 
-.homepage-hero h1 span {
-  background-color: var(--accent-color);
-}
-
 .homepage-hero {
   text-align: center;
   padding: 60px 25px;
@@ -96,10 +98,6 @@ img {
 .recent-projects h2 {
   margin: 20px;
   font-size: 45px;
-}
-
-.recent-projects h2 span {
-  background-color: var(--accent-color);
 }
 
 .projects-content {
@@ -162,10 +160,6 @@ img {
   text-align: justify;
 }
 
-.content-section p span {
-  background-color: var(--accent-color);
-}
-
 .content-section p:first-child {
   padding-top: 15px;
 }
@@ -178,10 +172,6 @@ img {
 
 .skills-section h3 {
   font-size: 35px;
-}
-
-.skills-section h3 span {
-  background-color: var(--accent-color);
 }
 
 .skills-section ul {
