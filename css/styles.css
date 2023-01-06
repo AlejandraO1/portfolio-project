@@ -11,6 +11,7 @@
 body {
   font-family: var(--content-font);
   background-color: var(--primary-color);
+  cursor: default;
 }
 
 h1,
@@ -108,12 +109,16 @@ img {
   margin: 10px;
 }
 
-.projects-content img {
+.container .projects-content {
   transition: var(--primary-transition);
 }
 
-.projects-content img:hover {
-  transform: scale(1.1);
+.container:hover .projects-content > * {
+  opacity: 0.5;
+}
+
+.container:hover .projects-content:hover > * {
+  opacity: 1;
 }
 
 .projects-content p {
