@@ -11,13 +11,15 @@
 body {
   font-family: var(--content-font);
   background-color: var(--primary-color);
-  animation: transitionIn 700ms ease-in-out;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--header-font);
+}
+.animation {
+  animation: transitionIn 700ms ease-in-out;
 }
 
 /* Navigation Bar Section */
