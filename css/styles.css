@@ -173,6 +173,12 @@ img {
   padding-top: 15px;
 }
 
+.content-section p span {
+  text-decoration-thickness: 15%;
+  font-weight: 700;
+  opacity: 1;
+}
+
 .skills-section {
   text-align: center;
   padding: 20px 15px;
@@ -210,16 +216,15 @@ img {
 }
 
 .contact-section a {
-  text-decoration: none;
   color: #000;
-  background-color: var(--secondary-color);
   transition: var(--primary-transition);
   font-size: 20px;
+  text-decoration-thickness: 15%;
 }
 
 .contact-section a:hover {
   color: #000;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .contact-section h3 {
