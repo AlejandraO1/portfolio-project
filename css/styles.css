@@ -55,7 +55,7 @@ nav a:hover {
   background-color: var(--secondary-color);
 }
 
-/* Hero Section  ----add homepage hero to all*/
+/* Hero Section*/
 
 .homepage-hero h1 {
   font-size: 75px;
@@ -68,7 +68,7 @@ nav a:hover {
 
 .homepage-hero {
   text-align: center;
-  padding: 50px 25px;
+  padding: 60px 25px;
 }
 
 .homepage-hero h2 {
@@ -327,6 +327,76 @@ footer {
 
   .homepage-hero h2 {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 475px) {
+  .homepage-hero {
+    padding: 10px;
+  }
+
+  .homepage-hero h1 {
+    font-size: 30px;
+  }
+
+  .homepage-hero h2 {
+    font-size: 20px;
+  }
+
+  .recent-projects h2 {
+    font-size: 20px;
+  }
+
+  .recent-projects h3 {
+    font-size: 16px;
+  }
+
+  .homepage-app p {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .content-section {
+    padding: 10px;
+  }
+
+  .content-section h1 {
+    font-size: 30px;
+  }
+
+  .content-section h2 {
+    font-size: 20px;
+  }
+
+  .skills-section h3 {
+    font-size: 16px;
+  }
+
+  .skills-section li {
+    font-size: 14px;
+  }
+
+  .projects-section h3 {
+    font-size: 16px;
+  }
+
+  .projects-section p {
+    font-size: 14px;
+  }
+
+  .contact-section h3 {
+    font-size: 20px;
+  }
+
+  .contact-section a {
+    font-size: 18px;
+  }
+
+  .footnote p {
+    font-size: 14px;
   }
 }
 
