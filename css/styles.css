@@ -126,7 +126,12 @@ img {
   margin: 10px;
 }
 
+.projects-content h3 {
+  font-size: 30px;
+}
+
 .projects-content p {
+  font-size: 16px;
   margin-top: 10px;
   opacity: var(--primary-opacity);
 }
@@ -175,7 +180,7 @@ img {
 }
 
 .skills-section h3 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .skills-section ul {
@@ -209,6 +214,7 @@ img {
   color: #000;
   background-color: var(--secondary-color);
   transition: var(--primary-transition);
+  font-size: 20px;
 }
 
 .contact-section a:hover {
@@ -218,6 +224,7 @@ img {
 
 .contact-section h3 {
   margin: 20px;
+  font-size: 30px;
 }
 
 /* Footer Section */
