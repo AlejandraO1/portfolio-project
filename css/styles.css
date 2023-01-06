@@ -308,6 +308,10 @@ footer {
     font-size: 20px;
   }
 
+  .recent-projects {
+    padding: 10px;
+  }
+
   .recent-projects h2 {
     font-size: 25px;
   }
@@ -336,6 +340,10 @@ footer {
     font-size: 20px;
   }
 
+  .content-section .about-heading {
+    padding: 0px;
+  }
+
   .skills-section h3 {
     font-size: 16px;
   }
@@ -344,12 +352,16 @@ footer {
     font-size: 14px;
   }
 
+  .contact-section {
+    padding-top: 5px;
+  }
+
   .contact-section h3 {
     font-size: 20px;
   }
 
   .contact-section a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .footnote p {
