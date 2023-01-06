@@ -20,6 +20,7 @@ h3 {
   font-family: var(--header-font);
 }
 
+/*Utility Classes */
 .underline {
   text-decoration: underline;
   text-decoration-color: var(--secondary-color);
@@ -64,9 +65,9 @@ nav a:hover {
 }
 
 /* Hero Section*/
-
 .homepage-hero h1 {
   font-size: 75px;
+  line-height: normal;
 }
 
 .homepage-hero {
@@ -82,7 +83,6 @@ nav a:hover {
 }
 
 /*Homepage Content */
-
 img {
   max-width: 100%;
   height: auto;
@@ -100,31 +100,6 @@ img {
   font-size: 45px;
 }
 
-.projects-content {
-  text-align: center;
-  padding: 15px 25px 8px;
-  background-color: var(--primary-color);
-  border-radius: 20px;
-  margin: 10px;
-}
-
-.container .projects-content {
-  transition: var(--primary-transition);
-}
-
-.container:hover .projects-content > * {
-  opacity: 0.5;
-}
-
-.container:hover .projects-content:hover > * {
-  opacity: 1;
-}
-
-.projects-content p {
-  margin-top: 10px;
-  opacity: var(--primary-opacity);
-}
-
 .project-button {
   text-align: center;
 }
@@ -140,6 +115,32 @@ img {
 .btn:hover {
   border: 2px solid var(--secondary-color);
   color: #000;
+}
+
+/*For all pages containing projects */
+.projects-content {
+  text-align: center;
+  padding: 15px 25px 8px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.projects-content p {
+  margin-top: 10px;
+  opacity: var(--primary-opacity);
+}
+
+.container .projects-content {
+  transition: var(--primary-transition);
+}
+
+.container:hover .projects-content > * {
+  opacity: 0.5;
+}
+
+.container:hover .projects-content:hover > * {
+  opacity: 1;
 }
 
 /* For additional pages */
@@ -199,7 +200,7 @@ img {
 .contact-section {
   text-align: center;
   background-color: var(--tertiary-color);
-  padding: 35px 15px;
+  padding: 20px 15px 45px;
   margin-bottom: 10px;
 }
 
