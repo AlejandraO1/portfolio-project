@@ -29,7 +29,6 @@ nav {
 }
 
 nav a {
-  color: #000;
   text-decoration: none;
   transition: var(--primary-transition);
 }
